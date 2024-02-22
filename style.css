@@ -112,7 +112,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  background-color: lightgrey;
 }
 
 /* Page structure */
