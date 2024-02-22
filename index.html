@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-     YOUR HOMEPAGE HERE 
--->
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
-
-    <!-- The website stylesheet -->
+    <title>My First Blog</title>
     <link rel="stylesheet" href="/style.css" />
-
-    <!-- The website JavaScript file -->
     <script src="/script.js" defer></script>
-  </head>
+    
+    <meta name="description" content="Stop using inappropriate software or expensive developers. Your affordable and on-demand SaaS is here; pay as you go after an upfront fee. We craft personalized end-to-end experiences and systems to centralize external or internal features and activities for SMBs and industry leaders." />
+<meta property="og:title" content="SaaSduo — Each interaction matters" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="mywebsite.com" />
+<meta property="og:description" content="Enter here your description for SEO (google)" />
+<meta property="og:image" content="https://cdn.glitch.global/c0151ab8-f45e-43cf-ba43-a2348a9a865e/SaaSduo.com%20Google%20SEO%20Meta%202024.png?v=1704796488014" />
+<meta name="twitter:card" content="Enter here your description for twitter" />
+<meta name="keywords" content="list, here, your, tags, for, seo" />
+
+    </head>
+  
+  
+  
   <body>
     <!--
       The body includes the content you see in the page
@@ -57,10 +56,11 @@
        
       <div class="child-brick2 common-brick">
            
-      <h2>Using this project</h2>
-          
-      <p>
-      My second text
+      <p class="toptxt1">
+      About me
+      </p>
+      <p class="subtxt2">
+      Lorem ipsum dolore
       </p>
       </div> 
           
@@ -83,6 +83,18 @@
       color: grey;
       }
         
+              .toptxt1  {
+      font-weight: 800;
+      font-size: 28px;
+      margin-bottom: -5px;
+      color: white;
+      }
+        
+      .subtxt2  {
+      font-weight: 300;
+      color: white;
+      }
+        
       .parent-brick {
       background: white;
       border: 1px solid grey;
@@ -92,7 +104,7 @@
       margin-top: 20px;
       }
       .common-brick {
-      background: red;
+      background: blue;
       border-radius: 15px;
       width: 100%;
       padding: 20px;
@@ -102,13 +114,13 @@
         margin-bottom: 15px;
       }
         
-              .child-brick1:hover {
-      transform: scale(1.05);
+      .common-brick:hover {
+      transform: scale(1.02);
       transition-duration: 0.2s;
-      cursor: default !important;
+      cursor: pointer !important;
       }
       .child-brick2 {
-      background: red;
+      background: blue;
       }
       </style>
           
@@ -121,20 +133,8 @@
         
       </div>
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
     <footer class="footer">
       <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
     </footer>
   </body>
 </html>
